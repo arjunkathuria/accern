@@ -7,7 +7,9 @@ module.exports = {
     './src/index.js',
   ],
   module: {
-    loaders: [{ test: /\.js?$/, exclude: /node_modules/, loader: 'react-hot!babel' }],
+    loaders: [{ test: /\.jsx?$/, exclude: /node_modules/, loader: 'react-hot!babel' },
+    { test: /\.css$/, exclude: /node_modules/, loader: 'style!css' }
+    ],
   },
   resolve: {
     extensions: ['', '.js'],

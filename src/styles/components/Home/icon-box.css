@@ -1,0 +1,33 @@
+.iconbox .icon-Newspaper,
+.iconbox .icon-SpeedDial,
+.iconbox .icon-checkmark2,
+.iconbox .icon-PriceTag {
+  font-size: 4em;
+  color: #F24E4E;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.iconbox__title {
+  text-align: center;
+  font-size: 1.4em;
+  color: #FBFFFF;
+  font-family: poppins;
+}
+
+.iconbox__title+p {
+  color: #ABAFAF;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0.8em 2em;
+  max-width: 35em;
+  font-family: poppins;
+}
+
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}

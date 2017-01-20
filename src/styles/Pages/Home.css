@@ -1,0 +1,67 @@
+.hero {
+  position: relative;
+  width:100%;
+  height: 100vh;
+  background: url('/assets/images/redlady_black.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  position: absolute;
+  bottom: 15%;
+  left: 3%;
+}
+
+.hero button {
+  width:40%;
+  border-radius: 100px;
+  margin: 0 15px;
+  background: #F24E4E;
+}
+
+.hero button:nth-last-of-type(1) {
+  border: 2px solid white;
+  background: transparent;
+}
+
+.post__hero {
+  background: black;
+}
+
+.post__hero h2, .post__hero p {
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+}
+.post__hero h2 {
+  font-size: 2.2em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+.post__hero strong {
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.post__hero p {
+  max-width: 52em;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+  line-height: 1.5625;
+}
+
+.phlead {
+  margin: 5%;
+}
+
+.phgrid {
+  margin-bottom: 10%;
+}
+.phgrid p {
+  line-height: 1.5;
+  font-size: 1em;
+  color: #B2B2B2;
+}

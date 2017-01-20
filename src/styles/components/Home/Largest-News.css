@@ -1,0 +1,30 @@
+.largest-news {
+  background: #000000;
+  font-family: poppins;
+}
+.largest-news img{
+  object-fit: fill;
+  height: auto;
+}
+
+.largest-news .column__content .accordian {
+  margin-top: 8%;
+}
+
+.largest-news .column__content .accordian div {
+  background: #000;
+}
+.largest-news .column__content .accordian div[class*= title] {
+  font-family: poppins;
+  font-size: 1.3em;
+  border-top: 1px solid #505050;
+  padding: 2em;
+}
+
+.largest-news .column__content .accordian div[class*=content] {
+  font-size: 1em;
+  font-family: poppins;
+  max-width: 28em;
+  margin-left: auto;
+  margin-right: auto;
+}

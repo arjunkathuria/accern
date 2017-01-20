@@ -1,0 +1,43 @@
+.tradable-alerts {
+  background: #0E0E0E;
+  font-family: poppins;
+}
+
+.tradable-alerts img {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.column__content h2, .column__content p {
+  color: #fff; 
+  text-align: center;
+  font-family: poppins;
+}
+
+.column__content h2 {
+  letter-spacing: 0.08em;
+  font-family: poppins;
+}
+
+.tradable-alerts .column__content .accordian {
+  margin-top: 8%;
+}
+
+.tradable-alerts .column__content .accordian div {
+  background: #0E0E0E;
+}
+.tradable-alerts .column__content .accordian div[class*= title] {
+  font-family: poppins;
+  font-size: 1.3em;
+  border-top: 1px solid #505050;
+  padding: 2em;
+}
+
+.tradable-alerts .column__content .accordian div[class*=content] {
+  font-size: 1em;
+  font-family: poppins;
+  max-width: 28em;
+  margin-left: auto;
+  margin-right: auto;
+}

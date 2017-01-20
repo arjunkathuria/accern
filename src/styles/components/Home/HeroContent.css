@@ -1,0 +1,47 @@
+.hero h1, .hero h3, .hero p {
+  color: #fff;
+  font-family: poppins;
+}
+
+.col {
+  height: 100%;
+}
+/*.hero .container .row {
+  position: absolute;
+  bottom: 2em;
+
+}*/
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.separator {
+  box-sizing: border-box;
+  width:28%;
+  height: 5px;
+  border-bottom: 5px #F24E4E solid;
+}
+
+p {
+  margin: 2em 2em 2em 0;
+  font-size: 1.2em;
+}
+
+.hero button {
+    color: #fff;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero button span {
+    margin-right: 10%;
+    font-size: 1.2em;
+}

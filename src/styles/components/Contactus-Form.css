@@ -1,0 +1,40 @@
+
+.contact__us {
+  background: #000;
+}
+.contact__us h2, .contact__us p {
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+}
+
+.contact__us .form form {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+}
+
+.contact__us .form input {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #545454;
+  height: 2em;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin: 3% 4% 3% 4%;
+  padding: 0;
+  font-family: poppins;
+}
+.contact__us .form input:focus {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #fff;
+  font-family: poppins;
+}
+
+.contact__us .form button {
+  background: #F24E4E;
+  width: 15%;
+  border-radius: 100px;
+}

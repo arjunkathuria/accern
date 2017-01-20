@@ -1,15 +1,14 @@
 import React from 'react';
+import Navbar from '../components/Navbar'
 
-export default class Main extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className='main'>
-        MAIN!
-        {this.props.children}
+import '../styles/containers/Main.css'
+import '../styles/iconfonts.css'
+
+export default function Main(props) {
+  return (
+      <div className='Main'>
+        <Navbar />
+        {props.children}
       </div>
-    );
-  }
+  )
 }
