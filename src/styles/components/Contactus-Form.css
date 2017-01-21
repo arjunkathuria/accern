@@ -1,8 +1,9 @@
-
 .contact__us {
   background: #000;
 }
-.contact__us h2, .contact__us p {
+
+.contact__us h2,
+.contact__us p {
   color: #fff;
   text-align: center;
   font-family: poppins;
@@ -16,6 +17,7 @@
 }
 
 .contact__us .form input {
+  color: #fff;
   background: none;
   border: none;
   border-bottom: 3px solid #545454;
@@ -26,11 +28,11 @@
   padding: 0;
   font-family: poppins;
 }
+
 .contact__us .form input:focus {
   background: none;
   border: none;
   border-bottom: 3px solid #fff;
-  font-family: poppins;
 }
 
 .contact__us .form button {

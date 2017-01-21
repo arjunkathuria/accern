@@ -8,7 +8,6 @@ import PostHeroLead from '../components/Home/Post-Hero-Lead';
 import IconBox from '../components/Home/Icon-Box';
 import ColumnContent from '../components/Home/Column-Content';
 import ContactusForm from '../components/Contactus-Form'
-import Footer from '../components/Footer';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -26,7 +25,10 @@ export default class Home extends React.Component {
         <section className="post__hero">
         <div className="container">
         <div className="row">
-          <PostHeroLead />
+          <PostHeroLead
+              title='Leader In News and Social Analytics'
+              content='In just over three years, Accern has rapidly grown to become the market leader in the news and social analytics space in terms of content coverage. Trading alerts and analytics are derived from relevant finance-related news processed on over 300 million websites in real time for institutional investors.'
+          />
 
           <div className="container phgrid">
           <div className="row">
@@ -123,12 +125,10 @@ export default class Home extends React.Component {
                     <ContactusForm/>
                 </div>
               </div>
-              
           </div>
             </div>
         </section>
 
-        <Footer />
       </div>
     );
   }
