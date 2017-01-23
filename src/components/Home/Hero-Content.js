@@ -12,8 +12,8 @@ export default function HeroContent(props) {
           <div className="separator"></div>
           <p>Get the most advanced breaking news technology for your investment strategies. Over <strong>300 million websites</strong> are monitored in real time for early news on U.S. public equities.</p>
           <div className="row col-xs-12">
-              <button className='btn btn-lg col-xs-12 col-sm-6 col-md-6'><span className="icon-arrow-right3"></span>Try Web App</button>
-            <button className='btn btn-lg col-xs-12 col-sm-6 col-md-6'>Request API</button>
+              <button className='btn btn-lg col-xs-offset-3 col-xs-6 col-sm-6 col-md-4'><span className="icon-arrow-right3"></span>Try Web App</button>
+            <button className='btn btn-lg col-xs-6 col-sm-6 col-md-4'>Request API</button>
           </div>
         </div>
       </div>

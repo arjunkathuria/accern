@@ -10,26 +10,27 @@
 }
 
 .contact__us .form form {
-  max-width: 70em;
-  margin-left: auto;
-  margin-right: auto;
   font-family: poppins;
 }
 
 .contact__us .form input {
   color: #fff;
-  background: none;
+  background: transparent;
   border: none;
   border-bottom: 3px solid #545454;
   height: 2em;
-  margin-left: 4%;
-  margin-right: 4%;
   margin: 3% 4% 3% 4%;
   padding: 0;
   font-family: poppins;
 }
 
 .contact__us .form input:focus {
+  outline:none;
+  border: none;
+  border-bottom: 3px solid #fff;
+}
+.contact__us .form input:active {
+  outline: none;
   background: none;
   border: none;
   border-bottom: 3px solid #fff;
@@ -39,4 +40,5 @@
   background: #F24E4E;
   width: 15%;
   border-radius: 100px;
+  color: #fff;
 }

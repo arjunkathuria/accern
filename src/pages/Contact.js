@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
                     <div className="hero__content">
                         <div className="container">
                             <p>
-                                <span>we are here for you</span>
+                                <span>we're here for you</span>
                             </p>
                             <p className='larger__text'>
                                 <span>Contact us anytime</span>

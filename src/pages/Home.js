@@ -59,9 +59,11 @@ export default class Home extends React.Component {
         </section>
 
         <section className="tradable-alerts">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
-              <img src="/assets/images/platform2017-1.png" alt="platform image" className="col-xs-12 col-sm-6 col-md-6"/>
+              <div className="imgContainer col-xs-12 col-sm-6 col-md-6">
+                <img src="/assets/images/platform2017-1.png" alt="platform image" />
+              </div>
               <ColumnContent
                 heading="Get Tradable Alerts"
                 content="Use our web application to get early news on over 8,000 U.S. public equities sourced from over 300 million news websites, blogs, and social media feeds such as Twitter. With easy–to-use features, you can get set up in minutes and start trading on custom news alerts we deliver to you."
@@ -85,7 +87,7 @@ export default class Home extends React.Component {
         </section>
 
         <section className="largest-news">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <ColumnContent
                 heading="Largest News Sentiment API Feed"
@@ -105,7 +107,9 @@ export default class Home extends React.Component {
                           }
                         ]}
                 />
-              <img src="/assets/images/blackwhitegirl.jpg" alt="platform image" className="col-xs-12 col-sm-6 col-md-6" />
+              <div className="imgContainer col-xs-12 col-sm-6 col-md-6">
+                <img src="/assets/images/blackwhitegirl.jpg" alt="platform image" className="col-xs-12 col-sm-6 col-md-6" />
+              </div>
             </div>
           </div>
         </section>

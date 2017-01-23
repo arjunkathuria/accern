@@ -11,7 +11,6 @@ export default function ColumnContent(props) {
       <span>
         <p>{props.content}</p>
       </span>
-    {/* Enter Accordian component */}
     <div className="accordian">
       <div className="col-xs-12 col-sm-12 col-md-12">
       <Accordiancomp panels={props.panels}/>

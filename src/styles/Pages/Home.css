@@ -5,6 +5,7 @@
   background: url('/assets/images/redlady_black.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .hero__content {
@@ -14,9 +15,9 @@
 }
 
 .hero button {
-  width:40%;
+  max-width: 13em;
   border-radius: 100px;
-  margin: 0 15px;
+  margin: 10px 15px;
   background: #F24E4E;
 }
 
@@ -64,4 +65,18 @@
   line-height: 1.5;
   font-size: 1em;
   color: #B2B2B2;
+}
+
+.Home .contact__us .container::before {
+    content: '"';
+    padding: 1em;
+}
+
+.Home .contact__us .container button{
+    margin-top: 3em;
+}
+
+.Home .contact__us .container::after {
+    content: '"';
+    padding: 1em;
 }

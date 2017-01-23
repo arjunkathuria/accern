@@ -1,0 +1,151 @@
+.Company .hero {
+  background: url('/assets/images/59242777_l-copy-1.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.Company .boxgrid .boxel {
+  text-align: center;
+  position: relative;
+}
+
+.Company .boxgrid .row1>div:nth-of-type(odd) {
+  background: #181818;
+}
+
+.Company .boxgrid .row1>div:nth-of-type(even) {
+  background: #202020;
+}
+
+.Company .boxgrid .row2>div:nth-of-type(odd) {
+  background: #202020;
+}
+
+.Company .boxgrid .row2>div:nth-of-type(even) {
+  background: #181818;
+}
+
+.Company .boxgrid .row1 .boxel:hover,
+.Company .boxgrid .row2 .boxel:hover {
+  background: #F24E4E;
+}
+
+.Company .boxgrid img {
+  width: 12.5em;
+  height: 4.92em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  object-fit: contain;
+}
+
+.Company .boxgrid p.title {
+  font-size: 1.2em;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  color: #fff;
+}
+
+.Company .boxgrid .boxel:hover p.title {
+  background: #F24E4E;
+  bottom: 3em;
+  opacity: 1;
+  transform: translateX(3%);
+  transition: opacity 0.5s, bottom 0.5s;
+}
+
+.Company .boxgrid .boxel:hover img {
+  width: 11em;
+  height: 4.2em;
+  margin-bottom: 8.7em;
+  transition: 0.5s, width 0.5s;
+}
+
+.Company .hero__content {
+  width: 100%;
+  bottom: 13em;
+}
+
+.Company .hero__content .center {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Company .hero__content .center p {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.Company .hero__content .center .small__text {
+  font-size: 1.1em;
+}
+
+.Company .hero__content .center .large__text {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.Company .post__hero::before {
+  content: '"';
+  font-size: 10em;
+}
+
+.Company .post__hero article.article1 > * {
+  text-align: left;
+}
+
+.Company .post__hero article.article1 > span {
+  color: #838383;
+}
+
+.Company .post__hero article.article1 > h2 {
+  font-weight: 900;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid #838383;
+}
+
+@media only screen and (min-width: 800px){
+  .Company .post__hero .row2 {
+    margin-left: -4em;
+  }
+}
+.Company .post__hero .row2 .countbox {
+  color: #F24E4E;
+  font-size: 6em;
+  display: relative;
+  margin: 0;
+}
+
+.Company .post__hero article.article2 > * {
+  text-align: left;
+}
+
+.Company .post__hero article.article2 > button {
+  border-radius: 100px;
+  border: 2px solid  #F24E4E;
+  color: #F24E4E;
+  font-size: 1em;
+  padding: 1em 2.5em;
+  background: transparent;
+  -webkit-transition: background 0.5s, color 0.5s;
+  -moz-transition: background 0.5s, color 0.5s;
+  transition: background 0.5s, color 0.5s;
+}
+
+.Company .post__hero article.article2 > button:hover {
+  color: #fff;
+  font-size: 1em;
+  padding: 1em 2.5em;
+  background: #F24E4E;
+  -webkit-transition: color 0.5s, background 0.5s;
+  -moz-transition: color 0.5s, background 0.5s;
+  transition: color 0.5s, background 0.5s;
+}
+
+.Company .post__hero article.article2 > .separator {
+  border-bottom: 1px solid #FFFFFF;
+  width: 2em;
+}

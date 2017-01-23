@@ -29,41 +29,33 @@ export default class Resources extends React.Component {
 
           <div className="container boxgrid">
             <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-3 boxel">
+                <div className="col-xs-12 col-sm-3 col-md-3 boxel">
                     <GridBox
                         image='/assets/images/APIGUIDE-2.png'
                         title='Download'
                     />
                 </div>
 
-                <div className="col-xs-12 col-sm-12 col-md-3 boxel">
+                <div className="col-xs-12 col-sm-3 col-md-3 boxel">
                     <GridBox
                         image='/assets/images/samplelogo.png'
                         title='Download'
                     />
                 </div>
 
-                <div className="col-xs-12 col-sm-12 col-md-3 boxel">
+                <div className="col-xs-12 col-sm-3 col-md-3 boxel">
                     <GridBox
                         image='/assets/images/WHITEPAPERLOGO.png'
                         title='Download'
                     />
                 </div>
 
-                <div className="col-xs-12 col-sm-12 col-md-3 boxel">
+                <div className="col-xs-12 col-sm-3 col-md-3 boxel">
                     <GridBox
                         image='/assets/images/BACKTESTLOGO-1.png'
                         title='Download'
                     />
                 </div>
-                {/*
-
-                <GridBox
-                image="icon-Newspaper"
-                pTitle="News Coverage"
-                />
-
-                    */}
             </div>
           </div>
           </div>

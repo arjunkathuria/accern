@@ -1,58 +1,81 @@
 .Resources .hero {
-    background: url('/assets/images/edit59388790_l-copy.jpg');
-    background-size: cover;
+  background: url('/assets/images/edit59388790_l-copy.jpg');
+  background-size: cover;
+  background-position:50% 50%;
 }
 
 .Resources .post__hero p {
-    color: #969696;
+  color: #969696;
 }
 
 .Resources .boxgrid .boxel {
-    text-align: center;
-    position: relative;
+  text-align: center;
+  position: relative;
 }
 
-
-.Resources .boxgrid > div > div:nth-of-type(odd) {
-    background: #181818;
+.Resources .boxgrid>div>div:nth-of-type(odd) {
+  background: #181818;
 }
 
-.Resources .boxgrid > div > div:nth-of-type(even) {
-    background: #202020;
+.Resources .boxgrid>div>div:nth-of-type(even) {
+  background: #202020;
 }
 
 .Resources .boxgrid .boxel:hover {
-    background: #F24E4E;
-}
-.Resources .boxgrid img {
-    width: 12.5em;
-    margin-top: 8em;
-    margin-bottom: 8em;
+  background: #F24E4E;
 }
 
+.Resources .boxgrid img {
+  width: 12.5em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
 
 .Resources .boxgrid p.title {
-    font-size: 1.25em;
-    text-align:center;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  color: #fff;
 }
 
-
-.Resources .boxgrid .boxel:hover p.title{
-    background: #F24E4E;
-    bottom: 3em;
-    opacity: 1;
-    transform: translateX(3%);
-    transition: opacity 0.5s, bottom 0.5s;
+.Resources .boxgrid .boxel:hover p.title {
+  background: #F24E4E;
+  bottom: 3em;
+  opacity: 1;
+  transform: translateX(3%);
+  transition: opacity 0.5s, bottom 0.5s;
 }
-
 
 .Resources .boxgrid .boxel:hover img {
-    width: 11em;
-    margin-bottom: 8.7em;
-    transition:  0.5s, width 0.5s;
+  width: 11em;
+  margin-bottom: 8.7em;
+  transition: 0.5s, width 0.5s;
+}
+
+.Resources .hero__content {
+  width: 100%;
+  bottom: 15em;
+}
+
+.Resources .hero__content .center {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Resources .hero__content .center p {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.Resources .hero__content .center .small__text {
+  font-size: 1.2em;
+}
+
+.Resources .hero__content .center .large__text {
+  font-size: 3em;
+  font-weight: 900;
 }
