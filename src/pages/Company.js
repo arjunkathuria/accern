@@ -29,7 +29,7 @@ export default class Company extends React.Component {
                   </p>
                 </article>
               </div>
-              <div className="row2 col-xs-12 col-sm-6 col-md-6">
+              <div className="row22 col-xs-12 col-sm-6 col-md-6">
                 <div className="row">
                   <div className="col-sm-3 col-md-3">
                     <p className="countbox"> 40 </p>

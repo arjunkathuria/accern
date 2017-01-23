@@ -3,15 +3,14 @@
   font-family: poppins;
 }
 
-.tradable-alerts .imgContainer {
-}
 .tradable-alerts .imgContainer img {
   max-width: 100%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.column__content h2, .column__content p {
+.column__content h2,
+.column__content p {
   color: #fff; 
   text-align: center;
   font-family: poppins;
@@ -20,6 +19,7 @@
 .column__content h2 {
   letter-spacing: 0.08em;
   font-family: poppins;
+  margin: 2em 1.5em 1.5em;
 }
 
 .tradable-alerts .column__content .accordian {

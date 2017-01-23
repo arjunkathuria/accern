@@ -93,39 +93,40 @@
   font-size: 10em;
 }
 
-.Company .post__hero article.article1 > * {
+.Company .post__hero article.article1>* {
   text-align: left;
 }
 
-.Company .post__hero article.article1 > span {
+.Company .post__hero article.article1>span {
   color: #838383;
 }
 
-.Company .post__hero article.article1 > h2 {
+.Company .post__hero article.article1>h2 {
   font-weight: 900;
   padding-bottom: 0.8em;
   border-bottom: 1px solid #838383;
 }
 
-@media only screen and (min-width: 800px){
-  .Company .post__hero .row2 {
+@media only screen and (min-width: 800px) {
+  .Company .post__hero .row22 {
     margin-left: -4em;
   }
 }
-.Company .post__hero .row2 .countbox {
+
+.Company .post__hero .row22 .countbox {
   color: #F24E4E;
   font-size: 6em;
   display: relative;
   margin: 0;
 }
 
-.Company .post__hero article.article2 > * {
+.Company .post__hero article.article2>* {
   text-align: left;
 }
 
-.Company .post__hero article.article2 > button {
+.Company .post__hero article.article2>button {
   border-radius: 100px;
-  border: 2px solid  #F24E4E;
+  border: 2px solid #F24E4E;
   color: #F24E4E;
   font-size: 1em;
   padding: 1em 2.5em;
@@ -135,7 +136,7 @@
   transition: background 0.5s, color 0.5s;
 }
 
-.Company .post__hero article.article2 > button:hover {
+.Company .post__hero article.article2>button:hover {
   color: #fff;
   font-size: 1em;
   padding: 1em 2.5em;
@@ -145,7 +146,7 @@
   transition: color 0.5s, background 0.5s;
 }
 
-.Company .post__hero article.article2 > .separator {
+.Company .post__hero article.article2>.separator {
   border-bottom: 1px solid #FFFFFF;
   width: 2em;
 }

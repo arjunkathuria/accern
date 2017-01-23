@@ -1,34 +1,37 @@
 .Contact .hero {
-    background: url('/assets/images/test123.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
+  background: url('/assets/images/test123.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .Contact .hero__content {
-    bottom: 6em;
+  bottom: 6em;
 }
+
 .Contact .hero__content .container {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
+
 .Contact .hero__content p {
-    font-size: 1.2em;
-    margin: 0;
-    margin-bottom: 0.8em;
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 0.8em;
 }
-.Contact .hero__content p + p.larger__text {
-    font-size: 2em;
+
+.Contact .hero__content p+p.larger__text {
+  font-size: 2em;
 }
 
 .Contact .contact__us .container::before {
-    content: '"';
-    padding: 1em;
+  content: '"';
+  padding: 1em;
 }
 
-.Contact .contact__us .container button{
-    margin-top: 3em;
+.Contact .contact__us .container button {
+  margin-top: 3em;
 }
 
 .Contact .contact__us .container::after {
-    content: '"';
-    padding: 1em;
+  content: '"';
+  padding: 1em;
 }
