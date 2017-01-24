@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/components/Home/HeroContent.css';
+import '../../styles/components/Home/Hero-Content.css';
 
-export default function HeroContent(props) {
+export default function HeroContent() {
   return (
     <div className="container">
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {PropTypes} from 'react';
-import '../../styles/components/Home/icon-box.css'
+import '../../styles/components/Home/Icon-Box.css'
 
 export default function IconBox(props) {
   return (
