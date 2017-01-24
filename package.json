@@ -7,8 +7,8 @@
     "start": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Arjun Kathuria",
+  "license": "",
   "babel": {
     "presets": [
       "es2015",
