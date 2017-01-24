@@ -13,6 +13,7 @@ The code is nicely organised in `pages`, with each page being a master React Com
 
 Each page and component in /src directory has it's stylesheets neatly placed in the /styles folder with the same Name for clarity and consistency.
 
+```
 / (app root)
 |
 |----/dist (final bundled distributables and assets)
@@ -30,7 +31,7 @@ Each page and component in /src directory has it's stylesheets neatly placed in 
 |    |----/styles (stylesheets, consistenly Named)
 |
 |---- project config files (.edtiorconf, .gitignore, webpack config. package.json)
-
+```
 
 ## Libraries Used
 
